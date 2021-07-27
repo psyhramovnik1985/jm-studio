@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Studio JM </title>
+  <meta name="discription" content="Студия интернет-рекламы" >
+  <meta name="keywords" content="реклама в интернете, яндекс директ, копирайтинг, создание сайтов, web-дизайн, google ads, видео реклама"/>
+
+  <!-- === === === === === -->
+  <!-- favicon -->
+  <!-- === === === === === -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- === === === === === -->
+  <!-- CSS Libs -->
+  <!-- === === === === === -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"> 
+  <!--<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">-->
+
+  
+  <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+  <header>       
+    <div id="header-logo">
+      <img src="images/logo-2.png" alt="studio jm" title="studio jm">
+    </div>
+
+    <div class="container">
+      
+      <div id="headers">
+        <h1> Studio JM</h1>
+        <h2>Студия <span>интернет-рекламы</span></h2>
+            
+      </div>
+
+      <button class="button engVersion">
+          <a href="./eng_version/index.html" title="english version"><img src="images/flagEnglish.png"></a>
+      </button>
+
+      <div id="menu">
+        <nav>
+          <ul>           
+            <li><a class="active" href="./index.html">Главная</a></li>
+            <li><a href="./about.html">О студии</a></li>
+            <li><a href="./doc.html">Документы</a></li>
+            <li><a href="./reviews.html">Отзывы</a></li>
+            <li><a href="./portfolio.html">Портфолио</a></li>
+            <li><a href="./preic.html">Цены</a></li>
+            <li><a href="./contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+        
+<div class="allContent" style="background: #031024;">
+  <div class="menu">
+      <div class="menu_our-services">
+        <h3> Наши услуги: </h3>
+        <br>
+        <ul>
+          <li><a href="preic.html#businessFromScratch">Бизнес с нуля </a></li><br>
+          <li><a href="preic.html#websiteDevelopment">Создание сайтов</a></li><br>
+          <li><a href="preic.html#websitePromotion">Продвижение сайтов</a></li><br>
+          <li><a href="preic.html#websiteSupport">Поддержка сайтов</a></li><br>
+          <li><a href="preic.html#contextualAdvertising">Контекстная реклама:<br> Яндекс,Google Ads </a></li><br>
+          <li><a href="preic.html#webDesign">Web-дизайн </a></li><br>
+          <li><a href="preic_3.html#targetedAdvertising">Таргетированная реклама:<br>instagram facebook vk </a></li><br>
+          <li><a href="preic.html#youTubeAdvertising">YouTube реклама </a></li><br>
+          <li><a href="preic.html#copywritingRewriting">Копирайтинг/Рерайтинг </a></li><br>               
+        </ul> 
+      </div>     
+
+      <div class="bottom">
+        <ul class="icons">
+          <li><a href="https://www.facebook.com/studiojmminsk/?modal=admin_todo_tour" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/juliamalevanova_studio" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="https://vk.com/studio_reklama_jm " target="_blank"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+  </div>
+
+  <form method="POST" action="./php/telegramm.php" id="formRequestCall">
+    <p>Укажите свой номер телефона и мы перезвоним Вам!</p>
+    <input id="inputPhoneNumber" name="user_phone" type="number" placeholder="Введите номер">
+    <button type="submit" id="callMe" title="Заказать звонок"></button>
+    <div class="form-control-alert-message">
+      <span>Поле обязательно для заполнения</span>
+    </div>  
+    <div class="form-control-alert-message">
+      <span>Слишком короткая комбинация</span>
+    </div>  
+    <button id="closeForm" title="close">X</button>
+  </form>
+  
+  <button id="callMeClick" title="Заказать звонок"></button> 
+
+  <div class="content clearfix backgroundContent">
+        
+    <nav class="navbar navbar-expand-lg navbar-light"> <!-- bg-light -->
+      <a class="navbar-brand" href="#">Время работы:</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"> с 10.00 до 22.00 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">+375(29) *** ** ** РБ</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">+38(095) *** ** **  Украина</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br><br>
+    <div class="content clearfix">
+      <p ><em> "Если Вашего бизнеса нет в Интернете,<br> то Вас нет в бизнесе"-Билл Гейтс</em> </p>
+
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="10000">
+            <img src="images/carousel/carusel_1.jpg" class="img-fluid d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="10000">
+            <img src="images/carousel/carusel_2.jpg" class="img-fluid d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="10000">
+            <img src="images/carousel/carusel_3.jpg" class="img-fluid d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="10000">
+            <img src="images/carousel/carusel_4.jpg" class="img-fluid d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <h1 ><strong>Тысячи людей ежедневно ищут то,<br> что вы предлагаете!</strong> </h1>
+      <h3 style="text-indent: 1cm"><strong>Позвольте нам помочь им найти именно Вас!</strong></h3>
+      
+      <div id="bannerMan">
+        <img src="./images/businessWoman_upg.png">
+        <div class="bannerMan_content">
+          <p>Акция!!!</p>
+          <p>Сделаем аудит сайта, <br>рекламной кампании и конкурентов<br> БЕСПЛАТНО!</p>
+          <div class="counterPromotion">
+            <p>До окончания акции осталось:</p>
+            <div class="monthCounter">
+              <p><span></span><span></span></p>
+              <p></p>
+            </div>
+
+            <div class="dayCounter">
+              <p><span></span><span></span></p>
+              <p></p>
+            </div>
+
+            <div class="hoursCounter">
+              <p><span></span><span></span></p>
+              <p></p>
+            </div>
+
+            <div class="minutesCounter">
+              <p><span></span><span></span></p>
+              <p></p>
+            </div>
+
+            <div class="secondsCounter">
+              <p><span></span><span></span></p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Наши преимущества:</h2><br>
+
+      <img src="images/services.png" class="img-fluid" alt="Адаптивные изображения">
+        <br>
+        <hr>
+    </div>
+  </div>
+  <br><br><br>
+</div>
+
+<div class="footer">
+  <div>Минск,2019 &copy;  &laquo;Studio JM&raquo;</div>
+  <div>http://jm-studio.ru</div>  
+</div>
+
+<script src="js/callMe.js"></script>
+<script src="js/bannerBisWoman.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
