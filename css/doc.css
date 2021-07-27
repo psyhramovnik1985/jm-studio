@@ -1,0 +1,40 @@
+#contacts {
+	text-align: center;
+	padding: 50px 0 0;
+	color: #000;
+	background: url(../images/s.jpg);
+		
+}
+
+#contacts > .container {
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+#contacts h1 {
+	font: bold 40px sans-serif;
+}
+
+#contacts h2 {
+	font: lighter 22px/1.3em sans-serif;
+}
+
+
+div.certificates > img {
+	margin-top: 20px;	
+}
+
+div.certificates > img.sertifSK {
+	width: 31%;
+	min-width: 300px;
+}
+ 
+footer {
+	background: linear-gradient(transparent, #000);
+}
+
+@media only all and (max-width:500px)  {
+    .menu_our-services {
+        display: none;
+    }
+}

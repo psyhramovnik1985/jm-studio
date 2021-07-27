@@ -1,0 +1,345 @@
+.buttonDownloadPrice { 	
+	top:450px;
+	right: 60px;	
+}
+
+.buttonDownloadPrice img {
+    width: 83px;
+    height: 43px;
+}
+
+#contacts {
+	/* text-align: center; */
+	padding: 50px 0 0;
+	color: #000;
+	background: url(../images/s.jpg);
+	user-select: none;		
+}
+
+#contacts > .container {
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+#contacts h1 {
+	font: bold 40px sans-serif;
+	color: rgb(9, 9, 102);
+}
+
+#contacts h2 {
+	font: lighter 22px/1.3em sans-serif;
+}
+
+.contacts_allPriceList {
+	background-color: rgb(189, 210, 221);
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.contacts_allPriceList > p {
+	font-size: 21px;
+	font-weight: bold;
+	margin-left: 7%;	
+}
+
+.contacts_allPriceList > p:first-child {
+	text-transform: uppercase;
+	color: blue;
+}
+
+.contacts_allPriceList-button {
+	text-align: center;	
+}
+
+.contacts_allPriceList-button a {
+	background-color: red;
+	border-color: red;
+}
+
+.contacts_allPriceList-ourServices {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contacts_allPriceList-ourServices > :nth-last-child(1){
+	margin-bottom: 15px;
+}
+
+.contacts_allPriceList-ourServices div {
+	width: 40%;
+	text-align: left;
+}
+
+.contacts_allPriceList-ourServices p,
+.contacts_allPriceList-ourServices li {
+	height: 60px;
+	margin-bottom: 0;
+}
+
+.contacts_allPriceList-ourServices .priceUSD {
+	text-align: right;
+	list-style-type: none;
+}
+
+.contacts_allPriceList-ourServices .priceUSD li {
+	list-style-type: none;
+}
+
+.contacts_allPriceList-lastServices {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.contacts_allPriceList-lastServices > div {
+	width: 27%;
+	margin: 5px 3%;
+	text-align: justify;
+}
+
+.contacts_allPriceList-lastServices div :last-child {
+	font-weight: bold;
+}
+
+.contacts_allPriceList-lastServices h3 {
+	color: red;
+	margin-bottom: 5px;
+}
+
+.contacts_bottom-ourServices {
+	background-color: white;
+	padding-top: 20px;
+}
+
+.contacts_bottom-ourServices > p:last-child {
+	padding-bottom: 15px;
+	font-size: 27px;
+	text-align: center;
+}
+
+.contacts_bottom-ourServices_content {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.contacts_bottom-ourServices_content p:first-child {
+	text-align: center;	
+}
+
+.contacts_bottom-ourServices_content > div {
+	width: 45%;
+}
+
+.contacts_bottom-ourServices_content-left p:first-child {
+	font-size: 48px;
+	color: rgb(10, 63, 141);
+	height: 95px;
+}
+
+.contacts_bottom-ourServices_content-left img {
+	width: 90%;
+}
+
+.contacts_bottom-ourServices_content-right p:not(:first-child){	
+	color: rgba(11, 11, 17, 0.7);
+}
+
+.contacts_bottom-ourServices_content-right > div {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contacts_bottom-ourServices_content-right img {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.contacts_bottom-ourServices_content-right > div > div {
+	width: 31%;
+	font-size: 16px;
+}
+
+.contacts_bottom-ourServices_content-right > p {	
+	font-size: 22px;
+	text-align: justify;
+}
+
+.contacts_bottom-ourServices_content-right_middleContent {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+.contacts_bottom-ourServices_content-right > p:first-child {
+	font-size: 48px;
+	height: 95px;
+}
+
+.contacts_bottom-ourServices_content-right_buttonFindOutPrice {
+	display: inline-block;
+	vertical-align: bottom;
+    font-size: 18px;
+    color: #222222;
+    padding: 16px 40px 14px;
+	background: #FFD523; 
+	border-radius: 60px;
+}
+
+.contacts_bottom-ourServices_content-right_buttonFindOutPrice:hover {
+	text-decoration: none;
+	color: #222222;
+	background: #f1d867; 
+}
+
+footer {
+	background: linear-gradient(transparent, #000);
+}
+
+@media only all and (max-width: 1300px) {
+	.contacts_bottom-ourServices > p:last-child {
+		font-size: 17px;
+	}
+
+	.contacts_bottom-ourServices_content > div {
+		width: 48%;
+	}
+}
+
+@media only all and (max-width: 1100px) {
+	.contacts_allPriceList-lastServices div :nth-child(2){
+		height: 85px;
+	}
+	
+	.contacts_allPriceList-lastServices h3 {
+		height: 55px;
+	}
+
+	.contacts_bottom-ourServices_content-left p:first-child {
+		font-size: 38px;
+		height: 70px;
+	}
+
+	.contacts_bottom-ourServices_content-left img {
+		width: 95%;
+	}
+
+	.contacts_bottom-ourServices_content-right > p:first-child {
+		font-size: 38px;
+		height: 70px;
+	}
+
+	.contacts_bottom-ourServices_content-right_middleContent {
+		margin-bottom: 10px;
+	}
+
+	.contacts_bottom-ourServices_content-right > p {
+		font-size: 18px;
+	}
+
+	.contacts_bottom-ourServices_content-right > div > div {
+		font-size: 14px;
+	}
+}
+
+@media only all and (max-width: 1050px) {
+	nav { 	
+		font-size: 14px;	
+	}
+}
+
+@media only all and (max-width: 900px) {
+	.button { 	
+		top:10px;	
+	}
+
+	.button img {
+		width: 63px;
+		height: 33px;
+	}
+
+	.contacts_allPriceList-ourServices div {
+		width: 45%;
+	}
+}
+
+@media only all and (max-width: 600px) {
+	.card-header-pills li {
+		display: inline-block;
+		text-align: left;
+	}
+
+	.contacts_allPriceList li {
+		font-size: 16px;
+	}
+
+	.contacts_allPriceList-ourServices div {
+		width: 30%;
+	}
+
+	.contacts_allPriceList-ourServices > div:first-child {
+		width: 65%;
+	}
+
+	.contacts_bottom-ourServices_content {
+		display: inline-block;
+		text-align: center;
+		margin-left: 2%;
+	}
+
+	.contacts_bottom-ourServices_content > div {
+		width: 96%;
+	}
+
+	.contacts_allPriceList-lastServices h3 {
+		font-size: 18px;
+	}
+
+	.contacts_allPriceList-lastServices div :nth-child(2) {
+		font-size: 15px;
+	}
+
+	.contacts_allPriceList-lastServices div :nth-child(2) {
+		height: 110px;
+	}
+}
+
+@media only all and (max-width: 480px) {
+	.contacts_allPriceList li {
+		font-size: 15px;
+		margin-right: 5px;
+		height: 75px;
+	}
+
+	.contacts_allPriceList-ourServices div {
+		width: 33%;
+	}
+
+	.contacts_allPriceList-lastServices h3 {
+		font-size: 15px;
+	}
+
+	.contacts_allPriceList-lastServices div :nth-child(2) {
+		height: 140px;
+	}
+
+	.contacts_allPriceList-ourServices > div:first-child {
+		width: 68%;
+	}
+
+	.contacts_bottom-ourServices_content {
+		display: inline-block;
+		text-align: center;
+		margin-left: 2%;
+	}
+
+	.contacts_bottom-ourServices_content > div {
+		width: 96%;
+	}
+}
+
+@media only all and (max-width: 400px) {
+	.contacts_allPriceList-lastServices div :nth-child(2) {
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,166 @@
+#about {
+	text-align: center;
+	padding: 50px 0 0;
+	color: #000;
+	background: url(../images/s.jpg);
+		
+}
+
+#about > .container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#about h1 {
+	
+	font-family: b'Lobster', cursive;
+	color: red;
+	font-size: bold 40px;
+}
+
+#about h2 {
+	font: lighter 22px/1.3em sans-serif;
+}
+
+/* === === === === === */
+/* Action button
+/* === === === === === */
+
+.action-button {
+	width: 200px;
+	margin: 30px auto 0;
+}
+
+.action-button > a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	background: #CD5C5C;
+	padding: 15px 15px;
+	font: bold 14pt sans-serif;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+}
+
+#smm h2{
+	font-family: b'Lobster', cursive;
+	color: #000;
+	font-size: bold 40px;
+	
+}
+
+#smm h4 {
+	font: lighter 22px/1.3em sans-serif;
+	
+
+}
+
+
+
+#context_advertisting h2{
+	font-family: b'Lobster', cursive;
+	color: #000;
+	font-size: bold 40px;
+	
+}
+
+#context_advertisting h4 {
+	font: lighter 18px/1.3em sans-serif;
+	
+
+}
+
+#sayt h2{
+	font-family: b'Lobster', cursive;
+	color: #000;
+	font-size: bold 40px;
+	
+}
+
+#sayt h4 {
+	font: lighter 22px/1.3em sans-serif;
+	}
+
+
+#web h2{
+	font-family: b'Lobster', cursive;
+	color: #000;
+	font-size: bold 40px;
+	
+}
+
+#web h4 {
+	font: lighter 22px/1.3em sans-serif;
+}
+
+.divCaledarDesign p {
+	font-size: 21px;
+}
+.caledarDesign {
+	width: 98%;
+}
+
+input.SReadMoreRadio
+{
+	display: none;
+}
+
+input.SReadMoreRadio + label + div
+{
+	display: none;
+}
+
+input.SReadMoreRadio:checked + label + div
+{
+	display: block;
+	border: 1px solid #fff;
+	padding: 20px;
+}
+
+ input.SReadMoreRadio + label
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+ input.SReadMoreRadio:checked + label
+{
+	display: none;
+}
+
+input.SReadMoreRadio + label + div + input + label
+{
+	display: none;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+input.SReadMoreRadio:checked + label + div + input + label
+{
+	display: block;
+}
+
+.card-img-overlay {
+    top: -25px;
+}
+
+.card-body {
+	padding: 0.25rem;
+}
+
+@media only all and (max-width:1050px)  {
+	.card-deck .card {
+		margin: 0 10px;
+	}
+}
+
+@media only all and (max-width:500px)  {
+    .menu_our-services {
+        display: none;
+	}
+	
+	.card-img-overlay {
+		top: -65px;
+	}
+}
